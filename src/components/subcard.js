@@ -21,7 +21,7 @@ function Subcard(props) {
   }
 
   useEffect(() => {
-    var myInterval = setInterval(postSubcard,500)
+    var myInterval = setInterval(postSubcard,200)
     return () => {
       clearInterval(myInterval)
     }
